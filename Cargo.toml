@@ -21,7 +21,11 @@ include = [
 
 [dependencies]
 nom = "^3.0"
-rusticata-macros = "1.0"
+# rusticata-macros = "1.0"
+
+[dependencies.rusticata-macros]
+# path = "../rusticata-macros"
+git = "https://github.com/copslock/rusticata-macros.git"
 
 [badges]
 travis-ci = { repository = "rusticata/ipsec-parser" }
